@@ -86,7 +86,7 @@ public class Shooter : MonoBehaviour
 		for(int i = 0; i < shotPower; i++)
 			label = label + "+";
 
-		GUI.Label(new Rect(0, 15, 100, 30), label);
+		GUI.Label(new Rect(23, 45, 100, 30), label);
 	}
 
 	void ConsumePower() {
