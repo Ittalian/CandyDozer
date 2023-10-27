@@ -30,7 +30,7 @@ public class CandyHolder : MonoBehaviour
         if(counter > 0)
             labal = labal + " (" + counter + "s)";
 
-        GUI.Label(new Rect(23, 30, 100, 30), labal);
+        GUI.Label(new Rect(24, 30, 100, 30), labal);
     }
 
     void Update() {
